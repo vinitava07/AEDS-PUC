@@ -21,7 +21,7 @@ int main()
 void mergesort(int lista[], int inicio, int fim)
 {
     int meio;
-    if (l < r)
+    if (inicio < fim)
     {
         meio = (fim + inicio) / 2;
         
